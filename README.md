@@ -1,6 +1,6 @@
 # React To-Do List
 
-This is a simple React application for managing a to-do list. It allows users to add, remove, and mark tasks as completed. The application features dynamic task display, input validation, and optional sorting and filtering. It also utilizes localStorage to persist tasks between sessions.
+This is a React application for managing a to-do list. It allows users to add, remove, and mark tasks as completed. The application features dynamic task display, input validation, and optional sorting and filtering. It also utilizes localStorage to persist tasks between sessions.
 
 ## Features
 
