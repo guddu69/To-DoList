@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #00796b;
+}
+
+.form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.form input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+.icon-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-btn i {
+  font-size: 1.2rem;
+}
+
+.icon-btn:hover {
+  background-color: #0056b3;
+}
+
+.buttons button {
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 0.5rem;
+}
+.buttons .filter-btn {
+  background: #007bff;
+}
+.buttons .clear-btn {
+  background: #dc3545;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.controls {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.controls select {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.controls select:hover {
+  background-color: #0056b3;
+}
+
+.todo-list {
+  width: 100%;
+  max-width: 400px;
+}
+
+.item {
+  background: #ffecb3;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.item.completed {
+  background: #c8e6c9;
+}
+
+.item h5 {
+  margin: 0;
+  color: #333;
+  flex-grow: 1;
+  padding: 0 0.5rem;
+}
+
+.item button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.item button:hover {
+  background-color: #c82333;
+}
